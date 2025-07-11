@@ -9,7 +9,7 @@ class VideoFilters {
   static final _api = VideoFiltersApi();
 
   static Future<void> loadVideo(String path) async{
-    log('jjjjj video filters');
+    log('jjjjj video filters ');
     _api.loadVideo(path);
   }
   static Future<void> play() => _api.play();
